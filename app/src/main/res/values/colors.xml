@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorBackground">#009688</color>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="barre">#FFF</color>
+    <color name="fondBarre">#7FFF</color>
+    <color name="colorAccentMax">@color/colorAccent</color> -->
+    <color name="colorBackground">#009688</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryLight">#64B5F6</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="barre">#fff</color>
+    <color name="fondBarre">@color/colorPrimaryDark</color>
+    <color name="colorAccentMax">@color/colorAccent</color>
+
+</resources>

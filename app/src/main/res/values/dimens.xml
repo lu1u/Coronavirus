@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="largeur_barre">36dp</dimen>
+    <dimen name="largeur_circularprogress">48dp</dimen>
+</resources>

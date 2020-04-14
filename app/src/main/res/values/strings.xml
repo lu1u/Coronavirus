@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Confinement Coronavirus</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="format_distance">%1$.0fm</string>
+    <string name="format_infos">Fournisseur: %1$s, Précision:%2$dm, Dernière pos:%3$02d:%4$02d:%5$02d:%6$d</string>
+    <string name="message_gps_en_attente">En attente de localisation...</string>
+    <string name="distanceDepassee">Vous êtes à %1$d mètres de votre domicile</string>
+    <string name="about">Application id: %1$s\nVersion: %2$s %9$s\nBuild date: %6$04d/%7$02d/%8$02d %3$02d:%4$02d:%5$02d</string>
+    <string name="format_distance_max">Distance autorisée: %.0fm</string>
+    <string name="question_definir_domicile">Voulez-vous définir la position courante comme votre domicile?</string>
+    <string name="titre_definir_domicile">Domicile</string>
+    <string name="aide"><![CDATA[<HTML><BODY><H1>Confinement Coronavirus</H1>
+    </P>Cette application vous aide à respecter la limitation de déplacement décrétée par le gouvernement.
+    </P>Vous pouvez modifier la position de votre <B>domicile</B> en pressant le bouton MAISON.
+    </P>La <B>distance maximale</B>, la sonnerie ainsi que d\'autres paramètres sont modifiables à partir du menu.
+    </P><B>Précision de la géolocalisation</B>:
+    <BR>La position GPS est fournie par le système Android, cette application ne peut pas être plus précise que ce qui lui est fourni par votre appareil. Une précision de 5 mètres est habituelle dans de bonnes conditions.
+    </P><B>Géolocalisation en arrière plan</B>
+    <BR>Le système Android limite volontairement et énormément les possibilités de géolocalisation si l\'application n\'est pas affichée ou si votre appareil est verrouillé.
+    <BR>Ce choix a été fait pour des raisons de sécurité et d\'économie d\'énergie. Cette application fait le maximum pour quand même garder une géolocalisation précise et rapide dans ces conditions, mais elles sera fortement dégradée.
+    <BR>Plus de précision sur la page Google <a href="https://developer.android.com/about/versions/oreo/background-location-limits">Background Location Limits</a>
+    </P><B>Conditions d\'utilisation:</B>
+    <BR>L\'utilisation de cette application est libre, cependant aucune garantie n\' accordée pour quelque fonctionnalité que ce soit. L\'auteur décline toute responsabilité sur toute conséquence liée à l\'utilisation de cette application.
+    </BODY></HTML>]]></string>
+</resources>

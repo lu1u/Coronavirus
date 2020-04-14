@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.lpi.coronavirus.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/fond_jauge"
+        app:CircAfficheMax="true"
+        app:CircBoutsBarre="ROUND"
+        app:CircCouleurBarre="@color/barre"
+        app:CircCouleurFond="@color/fondBarre"
+        app:CircCouleurMax="@color/colorAccentMax"
+        app:CircCouleurTexte="@android:color/background_light"
+        app:CircLargeurBarre="@dimen/largeur_barre"
+        app:CircLargeurFond="@dimen/largeur_circularprogress"
+        app:CircLargeurMax="20dp"
+        app:CircMaximum="1000"
+        app:CircMinimum="10"
+        app:CircTextSize="64dp"
+        app:CircTexte="sqdqsdf"
+        app:CircValeur="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonHome"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonHome" />
+
+    <TextView
+        android:id="@+id/textViewDistanceMax"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical|end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonHome"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonHome" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0FFF"
+        android:onClick="onClickSetHome"
+        android:padding="@dimen/fab_margin"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home_circle" />
+
+    <TextView
+        android:id="@+id/textViewInfos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lpi.coronavirus.MainActivity">
+    <item
+        android:id="@+id/action_active"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Activé" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_aide"
+        android:title="Aide" />
+    <item
+        android:id="@+id/action_apropos"
+        android:title="A propos" />
+</menu>

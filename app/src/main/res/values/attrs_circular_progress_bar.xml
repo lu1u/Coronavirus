@@ -1,0 +1,24 @@
+<resources>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="CircCouleurBarre" format="color" />
+        <attr name="CircLargeurBarre" format="dimension" />
+
+        <attr name="CircCouleurMax" format="color" />
+        <attr name="CircLargeurMax" format="dimension" />
+
+        <attr name="CircCouleurFond" format="color" />
+         <attr name="CircLargeurFond" format="dimension" />
+        <attr name="CircMinimum" format="float" />
+        <attr name="CircMaximum" format="float" />
+        <attr name="CircValeur" format="float" />
+        <attr name="CircTexte" format="string" />
+        <attr name="CircTextSize" format="dimension"/>
+        <attr name="CircAfficheMax" format="boolean" />
+        <attr name="CircCouleurTexte" format="color"/>
+        <attr name="CircBoutsBarre" format="enum">
+            <enum name="ROUND" value="0"/>
+            <enum name="SQUARE" value="1"/>
+            <enum name="BUTT" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

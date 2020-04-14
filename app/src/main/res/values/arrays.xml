@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <integer-array name="sonneries_id">
+            <item>@raw/bip</item>
+            <item>@raw/doublebip</item>
+            <item>@raw/porte</item>
+            <item>@raw/porte2</item>
+            <item>@raw/porte3</item>
+            <item>@raw/porte4</item>
+            <item>@raw/reveilectronique</item>
+            <item>@raw/vieuxtelephone</item>
+        </integer-array>
+
+    <array name="sonneries_noms" >
+        <item>Bip</item>
+        <item>Double bip</item>
+        <item>Porte 1</item>
+        <item>Porte 2</item>
+        <item>Porte 3</item>
+        <item>Porte 4</item>
+        <item>Réveil électronique</item>
+        <item>Vieux téléphone</item>
+    </array>
+</resources>
